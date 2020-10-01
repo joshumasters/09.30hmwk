@@ -1,0 +1,65 @@
+h1, h2{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    align-content: flex-start;
+}
+h1{
+    font-weight: 100;
+}
+h2{ 
+    font-size: 13px;
+}
+.Container{
+    background-color: black;
+    display: flex;
+    height: 80px;
+    align-items: center;
+
+}
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    width: 33%;
+    align-items: center;
+}
+.redFlag{
+    background: red;
+    width: 90px;
+    height: 80px;
+    text-align: center;
+}
+.Search{
+    background-color:white;
+    display: flex;
+    width: 220px;
+    height: 30px;
+    justify-items: center;
+    
+}
+
+.searchButton{
+display: flex;
+background-color: red;
+height:30px;
+width: 33px;
+align-items: center;
+justify-content: center;
+
+}
+.rightSide{
+    text-align: right;
+    width: 600px;
+    justify-content: center;
+   
+}
+.viewCart{
+    display: flex;
+    text-align: right;
+}
+.cart{
+    filter: invert(100);
+
+
+}
+
